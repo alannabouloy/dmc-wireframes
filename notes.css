@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    margin: -10px;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 10px;
+}
+
+header p {
+  font-size: 14px;
+  margin-top: 25px;
+  margin-right: 5px;;
+}
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.notes-list li {
+    list-style: none;
+}
+
+.note {
+    background-color: gray;
+    flex: 1;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.add-button {
+    text-align: center;
+}
+

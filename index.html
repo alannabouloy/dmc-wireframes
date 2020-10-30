@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wireframes</title>
+</head>
+<body>
+    <header>
+        <h1>DnD Campaign Manager Wireframes</h1>
+    </header>
+    <main>
+        <h2>Wireframe Links</h2>
+        <ul>
+            <li><a href='/landing-page.html'>Landing Page</a></li>
+            <li><a href="/login-page.html">Login Page</a></li>
+            <li><a href="/registration.html">Registration Page</a></li>
+            <li><a href="/dashboard.html">Dashboard</a></li>
+            <li><a href="/campaign-dash.html">Campaign Dashboard</a></li>
+        </ul>
+
+        <h2>User Flow</h2>
+        <ol>
+            <li>
+                <h3>Landing Page</h3>
+                <p>
+                    On the landing page, the user will select either the 'new user' button, or the button for returning users.
+                    <ul>
+                        <li>If they select the 'new user' option they will be taken to the registration page.</li>
+                        <li>Otherwise they will go straight to a login page.</li>
+                    </ul> 
+                </p>
+            </li>
+            <li>
+                <h3>Login Page</h3>
+                <p>
+                    The user will be asked to fill out the login form with a username and password:
+                    <ul>
+                        <li>If both are valid, then they will be redirected to their personal dashboard.</li>
+                        <li>If the password is invalid, they will get an error message saying that they entered the wrong password.</li>
+                        <li>If the username is invalid, they will get an error message saying that they entered the wrong username.</li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <h3>Registration Page</h3>
+                <p>
+                    If the user says they are new, they will be taken to a registration page where they will fill out a form with a username, password, and email.
+                    <ul>
+                        <li>If the username, password, and email are all valid, they will be added as a user and taken to their new dashboard.</li>
+                        <li>If the username is too short, or nonexistent, they will get an error message telling them that they must have a username of 5+ characters</li>
+                        <li>If the username is taken by another user, they will get an error message telling them that the username has already been selected.</li>
+                        <li>If the password is not valid, they will get an error message telling them that they must have a password of 8+ characters</li>
+                        <li>If email is not a valid email, they will get an error message saying that they must give a valid email account</li>
+                        <li>If the email corresponds to another account on file, they will get a message notifying them that the email is already taken and asking if they would like to login</li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <h3>Dashboard</h3>
+                <p>Upon logging in, users will be taken to a main dashboard where they will be able to view all active campaigns for their account and have the option to add or join a campaign.
+                    <ul>
+                        <li>If they are a new user, this dashboard will be empty except for the buttons to add or join a campaign</li>
+                        <li>If they are a returning user, they will see all active campaigns associated with their account.</li>
+                        <li>If the user clicks on a campaign tab they will be redirected to that campaign's dashboard.</li>
+                        <li>If the user clicks on the 'Add Campaign' button, they will be redirected to a form page to add a new campaign</li>
+                        <li>If the user clicks on the 'Join Campaign' button, they will be taken to a page of all public campaigns available to join</li>
+                    </ul>
+                </p>
+            </li>
+            <li>
+                <h3>Campaign Dashboard</h3>
+                <p>Upon clicking on an active campaign tab, users will be redirected to that campaign's dashboard where they will see tabs for all notes associated with that campaign, any NPCs added to the campaign, and the current campaign bank account.
+                    There will be an Add Note button and an Add NPC button at the bottom of the page.
+                    <ul>
+                        <li>Users will be able to click on a note tab and be redirected to a detailed Note Page.</li>
+                        <li>Users will be able to click on an NPC tab and be redirected to a detailed NPC page. </li>
+                        <li>Users will be able to view how much money the party has currently, and make withdrawals and deposits to the bank which update the amount.</li>
+                        <li>Users will be able to click on an Add Note button that takes them to a form page to add a new note.</li>
+                        <li>Users will be able to click on an Add NPC button that takes them to a form page to add a new NPC.</li>
+                        <li>If there are no notes in the campaign, User will be able to see the Add Note and Add NPC buttons on their dash.</li>
+                        <li>User will be able to select tags to filter notes by.</li>
+                    </ul>
+                </p>
+        </ol>
+    </main>
+</body>
+</html>
